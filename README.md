@@ -55,7 +55,7 @@ Get note by id: GET /notes/{id}
 
 Get all notes: GET /notes
 
-Get all notes with paging and sorting: GET /notes?pageNo=<pageNo>&pageSize=<pageSize>&sortBy=<sortBy>
+Get all notes with paging and sorting: GET /notes?pageNo={pageNo}&pageSize={pageSize}&sortBy={sortBy}
   
 Update notes by id: PUT /notes/{id}
 
